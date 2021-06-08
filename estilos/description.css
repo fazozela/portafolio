@@ -1,0 +1,25 @@
+.description {
+  margin-block-start: 40px;
+  margin-block-end: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.description-info {
+  font: var(--headline5);
+  text-align: center;
+}
+.description-more {
+  font: var(--headline6);
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .description {
+    padding-inline-end: 233px;
+    padding-inline-start: 233px;
+    margin-block-start: 200px;
+    margin-block-end: 200px;
+  }
+}

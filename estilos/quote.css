@@ -1,0 +1,29 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block-start: 24px;
+  padding-block-end: 24px;
+  gap: 24px;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(39.7657px);
+  border-radius: 24px;
+}
+.quote-description {
+  font: var(--headline7);
+  margin-inline-start: 24px;
+  margin-inline-end: 24px;
+  text-align: start;
+}
+.quote-caption {
+  font: var(--caption);
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .quote {
+    padding-block-start: 80px;
+    padding-block-end: 80px;
+  }
+}

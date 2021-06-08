@@ -1,0 +1,45 @@
+@import "./button.css";
+@import "./header.css";
+@import "./button-icon.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./description.css";
+@import "./quote.css";
+@import "./testimony.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./formulario.css";
+
+:root {
+  --fontBase: "Poppins", sans-serif;
+  --fontQuote: "Oxygen", sans-serif;
+  --headline1: bold 95px/153.71px var(--fontBase);
+  --headline2: bold 59px/95px var(--fontBase);
+  --headline3: bold 48px/77px var(--fontBase);
+  --headline4: bold 34px/55px var(--fontBase);
+  --headline5: 24px/38px var(--fontBase);
+  --headline6: bold 24px/38px var(--fontBase);
+  --headline7: 24px/38px var(--fontQuote);
+  --body1: 16px/25.89px var(--fontBase);
+  --body2: 14px/22.65px var(--fontBase);
+  --button: bold 14px/22.65px var(--fontBase);
+  --caption: 12px/19.42px var(--fontBase);
+  --purple: #310a90;
+  --green: #42e2b8;
+  --white: white;
+  --gradient: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #8e97fc 0%,
+      rgba(175, 175, 175, 0) 100%
+    ),
+    linear-gradient(135deg, #97fcff 0%, #4444fd 100%);
+}
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+  margin: 0px;
+}

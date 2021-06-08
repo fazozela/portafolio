@@ -1,0 +1,41 @@
+.formulario-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-inline-size: 540px;
+  margin: auto;
+}
+.formulario {
+  margin-block-end: 80px;
+}
+.formulario label {
+  display: flex;
+  flex-direction: column;
+  font: var(--button);
+}
+.formulario input,
+.formulario textarea {
+  border: 2px solid #858c94;
+  border-radius: 8px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  padding-block-start: 12px;
+  padding-block-end: 12px;
+  font: var(--body1);
+  margin-block-start: 8px;
+}
+.formulario .title {
+  margin: 0px;
+}
+.formulario p {
+  color: var(--white);
+  margin: 0px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .formulario .title {
+    align-self: stretch;
+    text-align: center;
+  }
+}
